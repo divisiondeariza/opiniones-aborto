@@ -1,0 +1,173 @@
+Posición Frente al aborto,Medida,Valor,"Desviación Estándar
+"
+"(-0.501,-0.41]",Freq,5.00,
+"(-0.41,-0.32]",Freq,361.00,
+"(-0.32,-0.23]",Freq,99.00,
+"(-0.23,-0.14]",Freq,245.00,
+"(-0.14,-0.0504]",Freq,3366.00,
+"(-0.0504,0.0395]",Freq,56957.00,
+"(0.0395,0.129]",Freq,3468.00,
+"(0.129,0.219]",Freq,1577.00,
+"(0.219,0.309]",Freq,131.00,
+"(0.309,0.4]",Freq,97.00,
+"(-0.501,-0.41]",Porcentaje usuarios,0.01%,
+"(-0.41,-0.32]",Porcentaje usuarios,0.54%,
+"(-0.32,-0.23]",Porcentaje usuarios,0.15%,
+"(-0.23,-0.14]",Porcentaje usuarios,0.37%,
+"(-0.14,-0.0504]",Porcentaje usuarios,5.08%,
+"(-0.0504,0.0395]",Porcentaje usuarios,85.90%,
+"(0.0395,0.129]",Porcentaje usuarios,5.23%,
+"(0.129,0.219]",Porcentaje usuarios,2.38%,
+"(0.219,0.309]",Porcentaje usuarios,0.20%,
+"(0.309,0.4]",Porcentaje usuarios,0.15%,
+"(-0.501,-0.41]"," N tuits
+",6.00,
+"(-0.41,-0.32]"," N tuits
+",379.00,
+"(-0.32,-0.23]"," N tuits
+",129.00,
+"(-0.23,-0.14]"," N tuits
+",262.00,
+"(-0.14,-0.0504]"," N tuits
+",3905.00,
+"(-0.0504,0.0395]"," N tuits
+",104040.00,
+"(0.0395,0.129]"," N tuits
+",5888.00,
+"(0.129,0.219]"," N tuits
+",2041.00,
+"(0.219,0.309]"," N tuits
+",187.00,
+"(0.309,0.4]"," N tuits
+",185.00,
+"(-0.501,-0.41]",% tuits,0.01%,
+"(-0.41,-0.32]",% tuits,0.32%,
+"(-0.32,-0.23]",% tuits,0.11%,
+"(-0.23,-0.14]",% tuits,0.22%,
+"(-0.14,-0.0504]",% tuits,3.34%,
+"(-0.0504,0.0395]",% tuits,88.91%,
+"(0.0395,0.129]",% tuits,5.03%,
+"(0.129,0.219]",% tuits,1.74%,
+"(0.219,0.309]",% tuits,0.16%,
+"(0.309,0.4]",% tuits,0.16%,
+"(-0.501,-0.41]",Caracteres Promedio,33.50,22.14
+"(-0.41,-0.32]",Caracteres Promedio,161.85,18.28
+"(-0.32,-0.23]",Caracteres Promedio,124.22,56.93
+"(-0.23,-0.14]",Caracteres Promedio,74.05,35.92
+"(-0.14,-0.0504]",Caracteres Promedio,113.28,56.63
+"(-0.0504,0.0395]",Caracteres Promedio,197.13,77.43
+"(0.0395,0.129]",Caracteres Promedio,188.68,68.55
+"(0.129,0.219]",Caracteres Promedio,202.34,67.01
+"(0.219,0.309]",Caracteres Promedio,102.34,32.18
+"(0.309,0.4]",Caracteres Promedio,115.03,20.83
+"(-0.501,-0.41]",Hashtags Promedio,1.33,1.37
+"(-0.41,-0.32]",Hashtags Promedio,0.02,0.25
+"(-0.32,-0.23]",Hashtags Promedio,0.23,0.58
+"(-0.23,-0.14]",Hashtags Promedio,0.59,0.93
+"(-0.14,-0.0504]",Hashtags Promedio,0.53,0.93
+"(-0.0504,0.0395]",Hashtags Promedio,0.42,0.94
+"(0.0395,0.129]",Hashtags Promedio,0.76,0.98
+"(0.129,0.219]",Hashtags Promedio,0.79,0.61
+"(0.219,0.309]",Hashtags Promedio,0.43,0.90
+"(0.309,0.4]",Hashtags Promedio,1.10,0.46
+"(-0.501,-0.41]",Mentions promedio,0.00,0.00
+"(-0.41,-0.32]",Mentions promedio,0.98,0.13
+"(-0.32,-0.23]",Mentions promedio,0.88,0.45
+"(-0.23,-0.14]",Mentions promedio,0.57,0.59
+"(-0.14,-0.0504]",Mentions promedio,0.79,0.86
+"(-0.0504,0.0395]",Mentions promedio,1.23,1.72
+"(0.0395,0.129]",Mentions promedio,0.92,0.53
+"(0.129,0.219]",Mentions promedio,0.95,0.34
+"(0.219,0.309]",Mentions promedio,0.75,0.46
+"(0.309,0.4]",Mentions promedio,0.95,0.22
+"(-0.501,-0.41]",Rts Promedio,0.00,0.00
+"(-0.41,-0.32]",Rts Promedio,917.03,251.37
+"(-0.32,-0.23]",Rts Promedio,162.05,197.98
+"(-0.23,-0.14]",Rts Promedio,36.62,102.62
+"(-0.14,-0.0504]",Rts Promedio,757.04,4558.91
+"(-0.0504,0.0395]",Rts Promedio,451.71,1559.96
+"(0.0395,0.129]",Rts Promedio,305.44,716.60
+"(0.129,0.219]",Rts Promedio,1325.75,993.26
+"(0.219,0.309]",Rts Promedio,42.79,50.21
+"(0.309,0.4]",Rts Promedio,131.78,66.29
+"(-0.501,-0.41]",Favs Promedio,0.17,0.41
+"(-0.41,-0.32]",Favs Promedio,0.08,1.03
+"(-0.32,-0.23]",Favs Promedio,4.84,50.16
+"(-0.23,-0.14]",Favs Promedio,6.17,54.80
+"(-0.14,-0.0504]",Favs Promedio,3.29,65.88
+"(-0.0504,0.0395]",Favs Promedio,6.38,380.53
+"(0.0395,0.129]",Favs Promedio,3.68,70.55
+"(0.129,0.219]",Favs Promedio,2.75,95.26
+"(0.219,0.309]",Favs Promedio,2.50,16.40
+"(0.309,0.4]",Favs Promedio,0.28,1.67
+"(-0.501,-0.41]","Followers promedio
+",42.00,41.01
+"(-0.41,-0.32]","Followers promedio
+",339.23,792.56
+"(-0.32,-0.23]","Followers promedio
+",285.59,719.03
+"(-0.23,-0.14]","Followers promedio
+",723.37,2425.15
+"(-0.14,-0.0504]","Followers promedio
+",9607.92,207841.91
+"(-0.0504,0.0395]","Followers promedio
+",15077.29,234224.81
+"(0.0395,0.129]","Followers promedio
+",6002.03,73533.69
+"(0.129,0.219]","Followers promedio
+",10194.98,157172.97
+"(0.219,0.309]","Followers promedio
+",1129.38,3043.07
+"(0.309,0.4]","Followers promedio
+",2058.54,13224.87
+"(-0.501,-0.41]","Ejemplo de tweet
+",#VotoProvida2021 #NoSeraLey #EcuadorEsProvida no al aborto!!,
+"(-0.41,-0.32]","Ejemplo de tweet
+","⠀
+⠀
+⠀
+⠀
+⠀
+⠀
+⠀
+⠀
+⠀
+⠀⠀⠀            Seré breve:
+      
+⠀               NO EXISTE EL 
+         DERECHO AL ABORTO
+
+    Aniquilar no es nunca solución 
+
+⠀      
+⠀
+⠀
+
+⠀
+⠀
+
+⠀",
+"(-0.32,-0.23]","Ejemplo de tweet
+","Unidos somos más Ecuador le dice no al aborto y si a la vida 💙🇪🇨💙 #VotoProvida2021 @frentejovenec
+
+",
+"(-0.23,-0.14]","Ejemplo de tweet
+",RT @majogi_lam: Yo marcho porque toda vida es sagrada #ColombiaEsProvida https://t.co/KPGwHX1pYR,
+"(-0.14,-0.0504]","Ejemplo de tweet
+",Asambleísta ecuatoriano 🇪🇨 Dile No al aborto 🙏🏼 https://t.co/AEGUscS16y,
+"(-0.0504,0.0395]","Ejemplo de tweet
+","Mañana es el Día Internacional del Aborto Seguro, conmemoración de NU q busca evitar q mujeres recurran a prácticas de interrupción de embarazo peligrosas para su salud. ""Curiosamente"" los países subdesarrollados no lo permiten; la ignorancia va de la mano de la religión. https://t.co/VersLew5qz",
+"(0.0395,0.129]","Ejemplo de tweet
+",La marea verde preparándose para salir HOY #28s para exigir la despenalización del aborto 😌✨💚 https://t.co/nFPowtYR7t,
+"(0.129,0.219]","Ejemplo de tweet
+","La criminalización no impide los abortos. Empuja a la clandestinidad. #28S - Día de Acción Global por el Aborto Legal, Seguro y Gratuito. https://t.co/FuedMK0g4R",
+"(0.219,0.309]","Ejemplo de tweet
+","Día de Acción Global por el acceso al Aborto Legal y Seguro, 2019. 
+
+📍Puerto Rico. https://t.co/wklqOypqJ2",
+"(0.309,0.4]","Ejemplo de tweet
+","💚 28 de septiembre 
+Día de Acción Global por el acceso al aborto legal y seguro.
+#28S
+#GritoGlobalPorAbortoLegal
+#QueSeaLey https://t.co/Y7u5JU1mRl",
