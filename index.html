@@ -2,13 +2,37 @@
 <html>
 <head>
   <title>First HTML with Atom</title>
-  <script src='https://d3js.org/d3.v4.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src='https://d3js.org/d3.v5.min.js'></script>
   <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
   <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
   <script src="script.js"></script>
 </head>
 <body>
-      <h1>Atom is Great!</h1>
-      <p>And, it's free.</p>
+  <div class="container-fluid">
+    <div class="row">
+      <h1>Opiniones sobre el aborto</h1>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <div id="histogram"></div>
+      </div>
+      <div class="col-4">
+        <div id="data-table">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <iframe id="wordcloud"
+          title="Inline Frame Example"
+          width="700"
+          height="600"
+          src="clouds/wc_(0.129,0.219].html">
+      </iframe>
+    </div>
+  </div>
+
 </body>
 </html>
