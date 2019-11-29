@@ -21,7 +21,7 @@ d3.csv("data.csv").then(function(csv) {
 //Poppin' data in the charts, like a blizzard.
 function set_graph(){
   // set the dimensions and margins of the graph
-  var margin = {top: 20, right: 20, bottom: 30, left: 50},
+  var margin = {top: 20, right: 20, bottom: 30, left: 70},
       width = 700 - margin.left - margin.right,
       height = 400 - margin.top - margin.bottom;
 
@@ -77,19 +77,36 @@ function set_graph(){
         d3.select("#wordcloud")
           .attr("src", "clouds/wc_" + d["Posición Frente al aborto"] + ".html")
 
+        d3.select("#data-table")
+          .style("display", "inline");
+
+        d3.select("#data-table #header")
+          .html(
+            "<div class='col-4'><b>Medida</b></div>"+
+            "<div class='col-4'><b>Valor</b></div>" +
+            "<div class='col-4'><b>Desviación Estándar</b></div>"
+          ).style("background-color", odd? "#f0f0ff": "white")
+
+          var odd = false;
           for (var key in data) {
-            console.log(key);
-            if (data.hasOwnProperty(key)) {
-              console.log(key.replace(/\s/g, '-'));
+            odd =  !odd;
+            if (key == "Ejemplo de tweet"){
+              d3.select("#tweet-example")
+                .html("<b>Tweet de ejemplo:</b>" + data[key][i].Valor)
+            }
+            else if (data.hasOwnProperty(key)) {
                 d3.select("#data-table #" + key.replace(/\s/g, '-'))
                   .html(
                     "<div class='col-4'>" +
                       data[key][i].Medida +
                     "</div>"+
-                    "<div class='col-8'>" +
+                    "<div class='col-4'>" +
                       data[key][i].Valor +
+                    "</div>" +
+                    "<div class='col-4'>" +
+                       data[key][i]["Desviación Estándar\n"] +
                     "</div>"
-                  )
+                  ).style("background-color", odd? "#f0f0ff": "white")
 
             }
         }
@@ -101,16 +118,59 @@ function set_graph(){
       .call(d3.axisBottom(x))
       .selectAll("text")
       .html((d, i) => i + 1)
-      // .attr("y", 50)
-      // .attr("x", 20)
-      // .attr("dy", ".35em")
-      // .attr("transform", "rotate(-30)")
-      // .style("text-anchor", "start");
 
   // add the y Axis
   svg.append("g")
       .call(d3.axisLeft(ylog)
               .tickValues([1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000,
                           d3.max(data.Freq.map(d => parseInt(d.Valor)))]))
+
+  var arrows = d3.select("#histogram").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", 30 + margin.bottom)
+
+// Now we add some nice arrows
+
+//The point of the arrows
+  arrows.append("svg:defs").append("svg:marker")
+      .attr("id", "triangle")
+      .attr("refX", 6)
+      .attr("refY", 6)
+      .attr("markerWidth", 30)
+      .attr("markerHeight", 30)
+      .attr("markerUnits","userSpaceOnUse")
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M 0 0 12 6 0 12 3 6")
+      .style("fill", "black");
+
+  arrows.append("line")
+      .attr("x1",  width - 100)
+      .attr("y1", 10)
+      .attr("x2", width)
+      .attr("y2", 10)
+      .attr("stroke-width", 1)
+      .attr("stroke", "black")
+      .attr("marker-end", "url(#triangle)")
+
+  arrows.append("text")
+        .attr("x", width - 70)
+        .attr("y", 30)
+        .html("A favor")
+
+  arrows.append("line")
+      .attr("x1",  200)
+      .attr("y1", 10)
+      .attr("x2", 100)
+      .attr("y2", 10)
+      .attr("stroke-width", 1)
+      .attr("stroke", "black")
+      .attr("marker-end", "url(#triangle)");
+
+  arrows.append("text")
+        .attr("x", 120)
+        .attr("y", 30)
+        .html("En contra")
+
 
 }

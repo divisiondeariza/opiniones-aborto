@@ -6,3 +6,44 @@
   background: none repeat scroll 0 0 #ffffff;
   text-align: center;
 }
+ body{
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+ }
+
+ h1{
+  font-family: 'Playfair Display', serif;
+  width: 100%
+  align: center;
+}
+
+text{
+  font-size: 14px;
+}
+
+#title{
+  justify-content: center;
+}
+
+#data-table{
+    display:none;
+}
+
+#data-table div{
+  border-width: 1px;
+  border-top-width: 0px;
+  border-color: #808080;
+  border-style: solid;
+}
+
+
+#data-table #header{
+  border-width: 1px;
+  border-top-width: 2px;
+  border-color: #808080;
+  border-style: solid;
+}
+
+#tweet-example{
+  margin-top: 50px;
+}
