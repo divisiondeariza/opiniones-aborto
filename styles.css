@@ -20,6 +20,10 @@
 text{
   font-size: 14px;
 }
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
 
 #title{
   justify-content: center;
@@ -27,6 +31,8 @@ text{
 
 #data-table{
     display:none;
+    font-size: 1vw;
+    margin-right: 10px;
 }
 
 #data-table div{
@@ -45,5 +51,5 @@ text{
 }
 
 #tweet-example{
-  margin-top: 50px;
+  //margin-top: 50px;
 }

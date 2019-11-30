@@ -21,8 +21,8 @@ d3.csv("data.csv").then(function(csv) {
 //Poppin' data in the charts, like a blizzard.
 function set_graph(){
   // set the dimensions and margins of the graph
-  var margin = {top: 20, right: 20, bottom: 30, left: 70},
-      width = 700 - margin.left - margin.right,
+  var margin = {top: 20, right: 10, bottom: 30, left: 70},
+      width = 400 - margin.left - margin.right,
       height = 400 - margin.top - margin.bottom;
 
   //Create tooltip
@@ -145,32 +145,31 @@ function set_graph(){
       .style("fill", "black");
 
   arrows.append("line")
-      .attr("x1",  width - 100)
+      .attr("x1",  150)
       .attr("y1", 10)
-      .attr("x2", width)
-      .attr("y2", 10)
-      .attr("stroke-width", 1)
-      .attr("stroke", "black")
-      .attr("marker-end", "url(#triangle)")
-
-  arrows.append("text")
-        .attr("x", width - 70)
-        .attr("y", 30)
-        .html("A favor")
-
-  arrows.append("line")
-      .attr("x1",  200)
-      .attr("y1", 10)
-      .attr("x2", 100)
+      .attr("x2", 50)
       .attr("y2", 10)
       .attr("stroke-width", 1)
       .attr("stroke", "black")
       .attr("marker-end", "url(#triangle)");
 
   arrows.append("text")
-        .attr("x", 120)
+        .attr("x", 70)
         .attr("y", 30)
         .html("En contra")
 
+  arrows.append("line")
+      .attr("x1",  width - 100 + 30)
+      .attr("y1", 10)
+      .attr("x2", width + 30)
+      .attr("y2", 10)
+      .attr("stroke-width", 1)
+      .attr("stroke", "black")
+      .attr("marker-end", "url(#triangle)")
+
+  arrows.append("text")
+        .attr("x", width - 40)
+        .attr("y", 30)
+        .html("A favor")
 
 }
