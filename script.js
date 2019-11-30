@@ -21,8 +21,9 @@ d3.csv("data.csv").then(function(csv) {
 //Poppin' data in the charts, like a blizzard.
 function set_graph(){
   // set the dimensions and margins of the graph
-  var margin = {top: 20, right: 10, bottom: 30, left: 70},
-      width = 400 - margin.left - margin.right,
+  var elm = d3.select("#histogram")
+  var margin = {top: 20, right: 10, bottom: 30, left: 60},
+      width = window.innerWidth * 0.35 - margin.left - margin.right,
       height = 400 - margin.top - margin.bottom;
 
   //Create tooltip
@@ -92,14 +93,14 @@ function set_graph(){
             odd =  !odd;
             if (key == "Ejemplo de tweet"){
               d3.select("#tweet-example")
-                .html("<b>Tweet de ejemplo:</b>" + data[key][i].Valor)
+                .html("<b>Tweet de ejemplo:</b>  " + data[key][i].Valor)
             }
             else if (data.hasOwnProperty(key)) {
                 d3.select("#data-table #" + key.replace(/\s/g, '-'))
                   .html(
-                    "<div class='col-4'>" +
+                    "<div class='col-4'><b>" +
                       data[key][i].Medida +
-                    "</div>"+
+                    "</b></div>"+
                     "<div class='col-4'>" +
                       data[key][i].Valor +
                     "</div>" +
@@ -145,16 +146,16 @@ function set_graph(){
       .style("fill", "black");
 
   arrows.append("line")
-      .attr("x1",  150)
+      .attr("x1",  185)
       .attr("y1", 10)
-      .attr("x2", 50)
+      .attr("x2", 85)
       .attr("y2", 10)
       .attr("stroke-width", 1)
       .attr("stroke", "black")
       .attr("marker-end", "url(#triangle)");
 
   arrows.append("text")
-        .attr("x", 70)
+        .attr("x", 105)
         .attr("y", 30)
         .html("En contra")
 
